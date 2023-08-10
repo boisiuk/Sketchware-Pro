@@ -10,8 +10,8 @@ if (analyticsEnabled) {
 }
 
 android {
-    compileSdk 33
-    buildToolsVersion "33.0.1"
+    compileSdk 34
+    buildToolsVersion "34.0.0"
 
     def gitCommitHash = "git rev-parse HEAD".execute().text.trim()
 
